@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Corneal Ulcer Grading System</title>
+      <link rel="stylesheet" href="static/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Joan&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top-container">
+      <div class="manipal">
+            <img  id="manipal_image"  src="static/manipal.jpg" alt="mit_manipal">
+      </div>
+      
+      
+      <a class="active" href="https://www.webmd.com/eye-health/corneal-ulcer"> <h3> More info</h3></a>
+      <a class="survey" href="static/Survey_Paper (2).pdf"> <h3>Survey Paper</h3>  </a>
+
+      <h1 id="heading">CORNEAL ULCER GRADING SYSTEM</h1>
+      <p> <b> An end to end corneal ulcer grading application</b></p>
+
+
+</div>
+
+<div class="middle-container">
+      <h3>Show a file-select field which allows only one file to be chosen:</h3>
+      <form action = "{{url_for('classify')}}" method = "POST"  enctype = "multipart/form-data">
+            
+            <input class="bt" type="file" accept="image/*" class="form-control-file" id="formControlFile1" name="image" style="border-radius: 0%">               
+      <div class="eye">
+            <img  id="eye_image" src="static/eye.png" alt="eye_image">
+      </div>
+      <input class="bt" type="submit" value="Submit" name='image'>
+</form>
+
+</div>
+
+
+
+<div class="middle-container-2">
+
+      <h1>What is Corneal Ulcer</h1>
+      <h2>A corneal ulcer is an open sore on your cornea. Infection is the leading cause. Symptoms include a red, watery and bloodshot eye; severe eye pain and pus or other eye discharge. A corneal ulcer can lead to vision loss and blindness. It’s considered a medical emergency.
+            How is a corneal ulcer diagnosed?
+            Your eye care provider will: Perform an examination with a slit lamp microscope. The slit lamp focuses a narrow “slit” of light onto the eye. A slit lamp exam is a normal part of an eye exam.
+            Your provider may apply a fluorescein dye to your eye. This yellow dye highlights any damage to your cornea.
+            Take a sample of the infected tissue. The results will show the type of infection and guide medication choice for treatment.</h2>
+
+</div>
+
+
+
+<div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/"><img id="github_image" src="static/github.png" alt=""></a>
+      <a class="footer-link" href="static/contact.html"><img id="contact_image" src="static/contact2.png" alt=""></a>
+      
+      <p>© Manipal Institute Of Technology</p>
+</div>
+
+</body>
+</html>
+

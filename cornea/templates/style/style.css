@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Roboto' , serif;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Montserrat' , serif;
+}
+
+h3{
+    font-size: 17px;
+    font-family: 'Montserrat' , serif;
+    margin-top: 0px;
+}
+
+p{
+    font-size: 17px;
+    font-family: 'Montserrat' , serif;
+}
+
+.top-container {
+    background-color: #AEDBCE;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.middle-container{
+    background-color: #cfe7e5;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.bottom-container{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    background-color: #cfe7e5;
+}
+
+.middle-container-2 {
+    background-color: #AEDBCE;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+
+.eye{
+    height: 365px;
+}
+
+
+
+#eye_image{
+     max-height: 100%;
+}
+
+.manipal{
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    width: 250px;
+}
+
+#manipal_image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.active{
+    position: absolute;
+    right: 160px;
+    color: #082721;
+}
+
+.survey{
+    position: absolute;
+    right: 30px;
+    color: #082721;
+}
+
+
+
+#github_image{
+    height: 25px;
+    width: 25px;
+    padding-right: 15px;
+}
+
+#contact_image{
+    height: 25px;
+    width: 25px;
+    padding-left: 15px;
+}
+
+.contact_images{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+
+}
+
+.linkedin{
+    height: 25px;
+    width: 25px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing:10px;
+   
+  }
+
+
+#class_image{
+    height: 365px;
+    width: 365px;
+    border-radius: 50%;
+}
+
